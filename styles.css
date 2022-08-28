@@ -24,7 +24,15 @@ body {
   border: 10px solid black;
   border-radius: 20%;
 }
-
+#startGame{
+  margin:2%;
+  padding: 2px;
+  border: 2px solid black;
+  height: 40px;
+  width: 100px;
+  border-radius: 2%;
+  background:#FEF2BF;;
+}
 .game-over {
   background-color: red;
   opacity: 0.8;

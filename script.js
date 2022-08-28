@@ -11,9 +11,15 @@ $(document).on("keypress", function () {
         $("#level-title").text("Level " + level);
         nextSequence();
         cnt = cnt + 1;
+    }l
+});
+$("#startGame").on("click",function(){
+    if (cnt === 0) {
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        cnt = cnt + 1;
     }
 });
-
 $(".btn").on("click", function () {
 
     let userChosenColor = this.id;
