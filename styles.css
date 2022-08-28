@@ -26,12 +26,15 @@ body {
 }
 #startGame{
   margin:2%;
-  padding: 2px;
+  padding:1px;
   border: 2px solid black;
   height: 40px;
-  width: 100px;
+  width: 150px;
   border-radius: 2%;
-  background:#FEF2BF;;
+  font-weight: bolder;
+  font-size:larger;
+  box-sizing: border-box;
+  background:#FEF2BF;
 }
 .game-over {
   background-color: red;
@@ -63,8 +66,8 @@ body {
     margin:2%;
     padding: 2px;
     border: 2px solid black;
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
     border-radius: 2%;
     background:#FEF2BF;;
   }
