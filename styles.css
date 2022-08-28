@@ -58,3 +58,14 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+@media screen and (max-width:750px) {
+  #startGame{
+    margin:2%;
+    padding: 2px;
+    border: 2px solid black;
+    height: 150px;
+    width: 200px;
+    border-radius: 2%;
+    background:#FEF2BF;;
+  }
+}
